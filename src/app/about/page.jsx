@@ -17,16 +17,14 @@ export default function About() {
     {
       label: "Experience",
       value: "experience",
-      desc: (<div>
+      desc: (<div className='flex flex-col gap-4'>
         <div className='relative p-10 bg-[#181715] before:content-[""] before:absolute before:h-12 before:w-1 before:bg-[#fff3] before:left-0 before:top-1/2 before:-translate-y-1/2'>
           <div className='flex flex-wrap gap-5'>
-            <h5 className='text-lg uppercase text-white'>Freelance | OPPA - Dashboard web app</h5>
-            <span className='text-[#888888]'>(11/2023 - 01/2024)</span>
+            <h5 className='text-lg uppercase text-white'>Freelance | oppa, flooq</h5>
+            <span className='text-[#888888]'>(11/2023 - present)</span>
           </div>
           <h3 className='text-white text-3xl mt-3.5'>Frontend Developer</h3>
           <div className='mt-5'>
-            <p className='text-[#888888] text-lg'>Description: Allows the admin to manage the application and monitor the number of users and the gifts exchanged between them.</p>
-            <p className='text-[#888888] text-lg'>Tools: HTML, CSS, Bootstrap, JavaScript, React.js.</p>
             <p className='text-[#888888] text-lg'>
               - Build UI for the web.
               <br />

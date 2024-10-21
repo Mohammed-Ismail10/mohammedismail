@@ -6,6 +6,7 @@ import game from '../../images/game-over.png'
 import freshcart from '../../images/freshcart.png'
 import linksnote from '../../images/links-note.png'
 import weather from '../../images/weather.png'
+import flooq from '../../images/flooq.png'
 
 import ProjectCard from '../_components/projectCard/page.jsx'
 
@@ -14,7 +15,7 @@ export default function Projects() {
     <>
       <div className='pb-5'>
         <h2 className='text-lg font-medium text-[#987750] uppercase'>My Projects</h2>
-        
+
         <div className='mt-5 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-7'>
           <ProjectCard projectDetails={{
             projectImage: oppa,
@@ -24,6 +25,15 @@ export default function Projects() {
             tools: ['HTML', 'CSS', 'Bootstrap', 'JavaSript', 'React'],
             sourceLink: 'https://github.com/Mohammed-Ismail10/oppa-dashboard',
             browseLink: 'https://mohammed-ismail10.github.io/oppa-dashboard/',
+          }} />
+          <ProjectCard projectDetails={{
+            projectImage: flooq,
+            projectName: 'Flooq',
+            projectConsdiered: 'Landing page',
+            projectDesc: 'Introductory website for Flooq Foundation.',
+            tools: ['HTML', 'Tailwind', 'JavaSript', 'Next.js'],
+            sourceLink: 'https://github.com/Mohammed-Ismail10/flooq',
+            browseLink: 'https://flooq.vercel.app/',
           }} />
           <ProjectCard projectDetails={{
             projectImage: yummy,
@@ -55,7 +65,7 @@ export default function Projects() {
           <ProjectCard projectDetails={{
             projectImage: linksnote,
             projectName: 'Links Note',
-            projectConsdiered: 'Notes',
+            projectConsdiered: 'CRUDS project',
             projectDesc: 'Web application allows the user to save his favorite sites or that he uses frequently.',
             tools: ['HTML', 'Bootstrap', 'JavaSript'],
             sourceLink: 'https://github.com/Mohammed-Ismail10/Links-note',
@@ -70,6 +80,7 @@ export default function Projects() {
             sourceLink: 'https://github.com/Mohammed-Ismail10/Weather-Temperatures',
             browseLink: 'https://mohammed-ismail10.github.io/Weather-Temperatures/',
           }} />
+
 
 
 
